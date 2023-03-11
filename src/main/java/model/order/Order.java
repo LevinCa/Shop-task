@@ -1,12 +1,12 @@
 package model.order;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import model.product.Product;
 
 import java.util.Map;
 
-@Data
+@Getter
 @AllArgsConstructor
 public class Order {
 

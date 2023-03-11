@@ -1,14 +1,14 @@
 package model.order;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 
 import javax.management.openmbean.KeyAlreadyExistsException;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.stream.Stream;
 
-@Data
+@Getter
 @AllArgsConstructor
 public class OrderRepository {
 

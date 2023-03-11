@@ -1,7 +1,6 @@
 package model;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import model.order.Order;
 import model.order.OrderRepository;
 import model.product.Product;
@@ -13,7 +12,6 @@ import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-@Data
 @AllArgsConstructor
 public class ShopService {
 

@@ -1,13 +1,14 @@
 package model.product;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.stream.Stream;
 
-@Data
+
+@Getter
 @AllArgsConstructor
 public class ProductRepository {
 
